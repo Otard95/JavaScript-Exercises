@@ -13,7 +13,7 @@ $ node varibables.js
 or use the `npm` scripts:
 ```
 $ cd %project-folder%
-$ npm run [ex01, ex02, ex03]
+$ npm run [ex01, ex02, ex03, ex04]
 ```
 
 ### What to do
