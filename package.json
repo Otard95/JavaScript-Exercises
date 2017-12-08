@@ -1,0 +1,14 @@
+{
+  "name": "js_exercises",
+  "version": "1.0.0",
+  "description": "Test your new found skills in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "ex01": "node ./Exercise01/variables.js",
+    "ex02": "node ./Exercise02/functions.js",
+    "ex03": "node ./Exercise03/callbacks.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Otard95",
+  "license": "MIT"
+}
