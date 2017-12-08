@@ -7,6 +7,7 @@
     "ex01": "node ./Exercise01/variables.js",
     "ex02": "node ./Exercise02/functions.js",
     "ex03": "node ./Exercise03/callbacks.js",
+    "ex04": "node ./Exercise04/modules.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Otard95",
