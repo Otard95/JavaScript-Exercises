@@ -1,9 +1,11 @@
 /*jshint esversion: 6 */
 /*jshint node: true */
 
+const assert = require('../bin/SimpleAssert');
+
 const AnimalStory = require('./class.js');
-const obj       = require('./object.js');
-const instance  = require('./instance.js')(10);
+const obj         = require('./object.js');
+const instance    = require('./instance.js')(10);
 
 let duck_story = new AnimalStory(3, 'duck', 'pond');
 let pig_story = new AnimalStory(1, 'pig', 'park');
@@ -25,6 +27,6 @@ assert.equal(obj.lname, 'Smith');
 assert.equal(obj.age  ,  34    );
 
 // Instance tests
-for (let i = 1; i < 10; i++) {
-  assert.equal(instance.numbers[i], '' + i);
+for (let i = 0; i < 10; i++) {
+  assert.equal(instance.numbers[i], '' + (i+1));
 }

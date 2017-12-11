@@ -1,6 +1,8 @@
 /*jshint esversion: 6 */
 /*jshint node: true */
 
+const assert = require('../bin/SimpleAssert.js');
+
 function map_arr (arr, func) {
 
   if (!Array.isArray(arr) || typeof func !== 'function') {
@@ -16,7 +18,7 @@ function map_arr (arr, func) {
 
 let num_arr = [1, 2, 4, 8, 16];
 
-let sum = 0;
+let sum = 1;
 
 /* Task: Fill in the parameters and function body of the anonymous function */
 
